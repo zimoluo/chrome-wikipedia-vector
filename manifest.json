@@ -7,12 +7,12 @@
         "activeTab"
     ],
     "background": {
-        "scripts": ["background.js"]
+        "scripts": ["./scripts/background.js"]
     },
     "content_scripts": [
         {
             "matches": ["*://*.wikipedia.org/*"],
-            "js": ["content.js"]
+            "js": ["./scripts/content.js"]
         }
     ]
 }
